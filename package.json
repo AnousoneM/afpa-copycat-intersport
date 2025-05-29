@@ -1,0 +1,26 @@
+{
+  "name": "copycat_intersport",
+  "version": "1.0.0",
+  "description": "Exercice de CopyCat Intersport",
+  "keywords": [
+    "copycat",
+    "intersport",
+    "bootstrap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "copycat_intersport"
+  },
+  "license": "ISC",
+  "author": "AnousoneM",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
+    "tailwind": "^4.0.0"
+  }
+}
