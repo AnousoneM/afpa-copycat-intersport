@@ -14,8 +14,14 @@ body::before {
   z-index: -1;
 }
 body .main {
+  width: 60vw;
   position: relative;
   z-index: 1;
+}
+@media (max-width: 414px) {
+  body .main {
+    width: 100vw;
+  }
 }
 body .main .img-cat {
   background-image: url("../img/player.jpg");
@@ -34,15 +40,30 @@ body .main .article .promo {
   height: 2.3rem;
 }
 body .main .article .image {
-  background-color: aqua;
+  background-color: #f3f3f3;
+  height: 20vh;
+}
+body .main .article .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 body .main .article .description {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 @media (max-width: 414px) {
   body .main .article .description {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
+}
+body .main .article .avis {
+  font-size: 0.7rem;
+}
+body .main .article .avis .circle {
+  font-size: 0.5rem;
+}
+body .main .article .price {
+  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
